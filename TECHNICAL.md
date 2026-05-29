@@ -2,6 +2,9 @@
 
 Everything a new session needs to maintain or extend the tool.
 
+**Live site:** https://beethekay.github.io/bms_english_learning/
+**Repository:** https://github.com/BeeTheKay/bms_english_learning
+
 ---
 
 ## File layout

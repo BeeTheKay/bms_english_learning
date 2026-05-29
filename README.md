@@ -1,14 +1,18 @@
 # BMS English Exam Practice Tool
 
-A self-contained, offline practice tool for the BMS (Berufsmaturitätsschule) English final exam, Cambridge A2–B1 level.
+A self-contained practice tool for the BMS (Berufsmaturitätsschule) English final exam, Cambridge A2–B1 level.
+
+**Live:** https://beethekay.github.io/bms_english_learning/
+
+**Repository:** https://github.com/BeeTheKay/bms_english_learning
 
 ## Usage
 
-Open `index.html` in any browser. No server, no internet, no installation required.
+Open the link above, or open `index.html` locally in any browser. No server, no internet connection required after the initial page load.
 
 ```
 english_learning/
-  index.html          ← open this in any browser
+  index.html          ← entry point
   css/
     styles.css        ← all styles
   js/
@@ -16,9 +20,8 @@ english_learning/
     core.js           ← state, SM-2 algorithm, answer checking
     render.js         ← UI rendering and event handlers
   requirements.pdf    ← source corpus the questions were built from
-  CLAUDE.md           ← architecture decisions and build spec
   README.md           ← this file
-  TECHNICAL.md        ← full internals reference for future sessions
+  TECHNICAL.md        ← internals reference
 ```
 
 ## What it covers
