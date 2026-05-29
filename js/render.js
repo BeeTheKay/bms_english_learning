@@ -240,9 +240,9 @@ function renderTF(q){
   return `<div class="passage">${esc(q.passage)}</div>
   <p class="q-text">${esc(q.question)}</p>
   <div class="tf-row" id="tfRow">
-    <button class="tf-btn" data-val="True">True</button>
-    <button class="tf-btn" data-val="False">False</button>
-    <button class="tf-btn" data-val="Not Mentioned">Not Mentioned</button>
+    <button class="tf-btn" data-val="True"><span class="mc-key">T</span>True</button>
+    <button class="tf-btn" data-val="False"><span class="mc-key">F</span>False</button>
+    <button class="tf-btn" data-val="Not Mentioned"><span class="mc-key">N</span>Not Mentioned</button>
   </div>
   ${showAnsWrap()}
   <div id="feedback"></div>
@@ -563,6 +563,17 @@ document.addEventListener('keydown',(e)=>{
     if(idx>=0){
       const opts=document.querySelectorAll('.mc-opt');
       if(opts[idx]){ e.preventDefault(); opts[idx].click(); }
+    }
+  }
+
+  if(!state.answered && q.type==='tf'){
+    const tag=e.target.tagName;
+    if(tag==='INPUT'||tag==='TEXTAREA') return;
+    const map = {t:'True', f:'False', n:'Not Mentioned'};
+    const val = map[e.key.toLowerCase()];
+    if(val){
+      const btn=[...document.querySelectorAll('.tf-btn')].find(b=>b.dataset.val===val);
+      if(btn){ e.preventDefault(); btn.click(); }
     }
   }
 });
