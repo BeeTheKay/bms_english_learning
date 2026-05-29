@@ -15,7 +15,7 @@ english_learning/
   css/
     styles.css        ← all CSS (variables + design system)
   js/
-    questions.js      ← const QUESTIONS = [...] only (105 questions)
+    questions.js      ← const QUESTIONS = [...] only (170 questions)
     core.js           ← config, state, storage, SM-2 selection, answer checking, dark mode
     render.js         ← all rendering, app actions, event handlers, boot
 ```
@@ -104,7 +104,7 @@ Every question is a plain JS object. All fields are required unless marked optio
 | `tf` | `tf_` | `tf_016` |
 | `error` | `err_` | `err_016` |
 
-Use zero-padded three-digit numbers. The current highest IDs are: `mc_025`, `fill_020`, `wf_015`, `tr_015`, `tf_015`, `err_015`.
+Use zero-padded three-digit numbers. The current highest IDs are: `mc_040`, `fill_035`, `wf_025`, `tr_025`, `tf_020`, `err_025`.
 
 ---
 
@@ -171,6 +171,7 @@ quantifiers                       countable_uncountable   adjectives_ed_ing
 comparative_superlative           relative_clauses        adverbs_vs_adjectives
 conjunctions                      prepositions_time       prepositions_place
 verb_patterns_gerund              verb_patterns_gerund_infinitive
+verb_patterns_infinitive          past_habits
 prepositional_verbs               prepositional_adjectives
 phrasal_verbs                     collocations            word_building
 too_enough                        reading_comprehension

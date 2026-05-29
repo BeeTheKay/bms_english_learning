@@ -587,4 +587,366 @@ hint:"'Better' is already the comparative form of 'good'. Never add 'more' to an
 question:"Could you look after this complaint while I'm away? It needs urgent attention.",
 answer:"after",alternates:["look after"],correction:"into",correctionAlternates:["look into"],
 hint:"'Look after' means to care for someone/something. To investigate a complaint, use 'look into' or 'deal with'."},
+
+// ── MULTIPLE CHOICE (continued) ───────────────────────────────────────────────
+{id:"mc_026",type:"mc",topic:"conditionals",
+question:"If it _____ too hot tomorrow, we'll stay indoors and watch a film instead.",
+options:["gets","will get","would get","got"],
+answer:"gets",alternates:[],
+hint:"Type 1 conditional: 'If + present simple, will + infinitive'. Never use 'will' in the if-clause, even when the meaning is future."},
+
+{id:"mc_027",type:"mc",topic:"verb_patterns_infinitive",
+question:"She promised _____ early so we wouldn't have to wait for her.",
+options:["arriving","to arrive","arrive","that she arrives"],
+answer:"to arrive",alternates:[],
+hint:"'Promise' is followed by a to-infinitive. Many verbs follow this pattern: agree, decide, refuse, manage, offer, hope."},
+
+{id:"mc_028",type:"mc",topic:"future_forms",
+question:"The last train _____ at 23:45, so we have plenty of time to finish dinner.",
+options:["leaves","is leaving","will leave","would leave"],
+answer:"leaves",alternates:[],
+hint:"Use present simple for scheduled, timetabled events (trains, buses, flights, cinema showings). It describes a fixed programme."},
+
+{id:"mc_029",type:"mc",topic:"collocations",
+question:"She has _____ a lot of progress in her English class this semester.",
+options:["done","made","got","taken"],
+answer:"made",alternates:[],
+hint:"'Make progress' is the fixed collocation. Also: make a decision, make a mistake, make a reservation, make a complaint."},
+
+{id:"mc_030",type:"mc",topic:"prepositions_place",
+question:"I left my phone _____ the drawer beside my bed — I can't find it anywhere else.",
+options:["on","in","at","into"],
+answer:"in",alternates:[],
+hint:"Use 'in' for enclosed spaces and containers (drawer, bag, box, room, pocket)."},
+
+{id:"mc_031",type:"mc",topic:"verb_patterns_gerund",
+question:"It was difficult at first, but now I _____ getting up at 5 a.m. every day.",
+options:["used to","am used to","would","have used to"],
+answer:"am used to",alternates:[],
+hint:"'Be used to + gerund' = currently accustomed to something. 'Used to + infinitive' = a past habit that no longer happens."},
+
+{id:"mc_032",type:"mc",topic:"modal_verbs",
+question:"I'm not sure where Sophie is. She _____ have gone to the library.",
+options:["must","should","might","would"],
+answer:"might",alternates:[],
+hint:"'Might have + past participle' = past possibility (uncertain). 'Must have' = near certainty. 'Should have' = criticism or regret."},
+
+{id:"mc_033",type:"mc",topic:"verb_patterns_gerund",
+question:"The strict teacher made the whole class _____ the exercise again from scratch.",
+options:["to do","doing","do","did"],
+answer:"do",alternates:[],
+hint:"'Make someone do something' takes the bare infinitive (no 'to'). The same applies to 'let someone do' and 'help someone do'."},
+
+{id:"mc_034",type:"mc",topic:"conjunctions",
+question:"She left the house early _____ she wouldn't miss the first bus of the morning.",
+options:["so","so that","in order to","therefore"],
+answer:"so that",alternates:[],
+hint:"'So that + clause (subject + verb)' expresses purpose. 'In order to + infinitive' also expresses purpose but needs the same subject."},
+
+{id:"mc_035",type:"mc",topic:"prepositions_time",
+question:"All applications must be submitted _____ 31 March — late entries will not be accepted.",
+options:["until","during","by","for"],
+answer:"by",alternates:[],
+hint:"'By' means 'at the latest' and sets a deadline. 'Until' means an action continues right up to that point in time."},
+
+{id:"mc_036",type:"mc",topic:"countable_uncountable",
+question:"The police _____ investigating the incident and expect to make an arrest soon.",
+options:["is","are","was","has been"],
+answer:"are",alternates:[],
+hint:"'Police' is always treated as plural in British English: 'the police are'. Compare: 'staff', 'team', and 'government' can take singular or plural depending on context."},
+
+{id:"mc_037",type:"mc",topic:"verb_patterns_gerund_infinitive",
+question:"On the way home from work, she stopped _____ some milk from the corner shop.",
+options:["buying","to buy","buy","for buying"],
+answer:"to buy",alternates:[],
+hint:"'Stop + to-infinitive' = pause in order to do something else. 'Stop + gerund' = permanently quit a habit (e.g. stop smoking)."},
+
+{id:"mc_038",type:"mc",topic:"reported_speech",
+question:"\"What time does the film start?\" he asked. → He asked what time the film _____.",
+options:["starts","would start","started","did start"],
+answer:"started",alternates:[],
+hint:"In reported speech, present simple shifts to past simple. Reported questions also use statement word order (no inversion after the question word)."},
+
+{id:"mc_039",type:"mc",topic:"quantifiers",
+question:"There were _____ people at the concert — we could barely move at all.",
+options:["too much","too many","enough","so much"],
+answer:"too many",alternates:[],
+hint:"'Too many' is used with countable nouns (people, cars, mistakes). 'Too much' is used with uncountable nouns (noise, traffic, information)."},
+
+{id:"mc_040",type:"mc",topic:"prepositional_adjectives",
+question:"Her new apartment is very _____ the one she had before — same size, same layout.",
+options:["similar to","similar with","the same with","alike to"],
+answer:"similar to",alternates:[],
+hint:"The fixed pattern is 'similar to'. Compare: 'different from', 'identical to', 'opposite to'."},
+
+// ── FILL IN THE BLANK (continued) ─────────────────────────────────────────────
+{id:"fill_021",type:"fill",topic:"phrasal_verbs",
+question:"His car _____ on the motorway, so he had to call a breakdown service.",
+answer:"broke down",alternates:[],
+hint:"'Break down' = to stop working suddenly (for machines). For people it means to become very upset or to lose control emotionally."},
+
+{id:"fill_022",type:"fill",topic:"collocations",
+question:"I'd like to _____ a reservation for two people at 8 o'clock this evening, please.",
+answer:"make",alternates:[],
+hint:"'Make a reservation' is the fixed collocation for booking a table or room. Also: make a decision, make progress, make a complaint."},
+
+{id:"fill_023",type:"fill",topic:"prepositional_adjectives",
+question:"He is very fond _____ spending his weekends hiking in the mountains.",
+answer:"of",alternates:[],
+hint:"'Fond of' means liking something or someone very much. The preposition is always 'of': fond of music, fond of cooking."},
+
+{id:"fill_024",type:"fill",topic:"prepositions_time",
+question:"I found it impossible to concentrate _____ the exam — there was noise coming from outside.",
+answer:"during",alternates:[],
+hint:"'During' is used before a noun phrase (during the exam, during the meeting). Use 'while' before a clause: 'while I was writing'."},
+
+{id:"fill_025",type:"fill",topic:"phrasal_verbs",
+question:"The council decided to _____ the road repairs until next spring.",
+answer:"put off",alternates:["postpone","delay"],
+hint:"'Put off' = to postpone something to a later time. It can also be separated: 'put the repairs off'."},
+
+{id:"fill_026",type:"fill",topic:"prepositional_verbs",
+question:"She _____ on doing everything herself and refuses all offers of help.",
+answer:"insists",alternates:[],
+hint:"'Insist on (doing) something' = to firmly demand or require. The preposition is always 'on': insist on + gerund."},
+
+{id:"fill_027",type:"fill",topic:"collocations",
+question:"Whatever happens, it is always better to _____ the truth rather than tell a lie.",
+answer:"tell",alternates:[],
+hint:"'Tell the truth' is the fixed collocation. Compare: tell a lie, tell a story, tell a joke, tell the time."},
+
+{id:"fill_028",type:"fill",topic:"prepositions_place",
+question:"The pharmacy is _____ the supermarket — you can see it directly from here.",
+answer:"opposite",alternates:["across from"],
+hint:"'Opposite' = directly facing something on the other side of the road or space. 'Across from' is an equally correct alternative."},
+
+{id:"fill_029",type:"fill",topic:"conjunctions",
+question:"Please leave your number _____ I can call you back this afternoon.",
+answer:"so that",alternates:["so"],
+hint:"'So that + clause' expresses purpose (intention). Informal English often drops 'that', but both are correct."},
+
+{id:"fill_030",type:"fill",topic:"verb_patterns_infinitive",
+question:"He completely _____ to accept any responsibility for what had happened.",
+answer:"refused",alternates:[],
+hint:"'Refuse to do something' = to firmly say no. 'Refuse' is always followed by a to-infinitive, never a gerund."},
+
+{id:"fill_031",type:"fill",topic:"prepositions_time",
+question:"Please make sure the project is finished _____ the end of the month.",
+answer:"by",alternates:[],
+hint:"'By' sets a deadline — 'at the latest'. 'Until the end of the month' would imply an action continues throughout the whole period."},
+
+{id:"fill_032",type:"fill",topic:"collocations",
+question:"I should get in _____ with my old school friend — I haven't heard from her in years.",
+answer:"touch",alternates:[],
+hint:"'Get in touch with someone' = to make contact. The expression is fixed: always 'in touch with', never 'on touch' or 'into touch'."},
+
+{id:"fill_033",type:"fill",topic:"phrasal_verbs",
+question:"We've _____ out of milk — could you pick some up on your way home?",
+answer:"run",alternates:[],
+hint:"'Run out of something' = to have none left. Present perfect here: 'have/has run out of'."},
+
+{id:"fill_034",type:"fill",topic:"phrasal_verbs",
+question:"Before moving to the new flat, she decided to _____ rid of all her old furniture.",
+answer:"get",alternates:[],
+hint:"'Get rid of something' = to remove or throw away something you no longer want or need."},
+
+{id:"fill_035",type:"fill",topic:"quantifiers",
+question:"There is very _____ chance of rain today, so you can safely leave your umbrella at home.",
+answer:"little",alternates:[],
+hint:"Use 'little' with uncountable nouns (chance, time, money, hope). Use 'few' with countable nouns (chances, options, friends)."},
+
+// ── WORD FORMATION (continued) ────────────────────────────────────────────────
+{id:"wf_016",type:"word_form",topic:"word_building",
+question:"The company's [manage] style changed significantly after the merger last year.",
+answer:"management",alternates:[],
+hint:"The noun form of 'manage' is 'management'. Add '-ment' to the verb. Other examples: development, involvement, achievement."},
+
+{id:"wf_017",type:"word_form",topic:"word_building",
+question:"It was a very [courage] decision to speak out in front of the entire board of directors.",
+answer:"courageous",alternates:[],
+hint:"Add '-ous' to 'courage' to form the adjective: courageous. Other '-ous' adjectives: famous, dangerous, generous, nervous."},
+
+{id:"wf_018",type:"word_form",topic:"word_building",
+question:"The levels of [pollute] in the city centre have reached dangerous levels this summer.",
+answer:"pollution",alternates:[],
+hint:"The noun form of 'pollute' is 'pollution'. The '-tion/-ation' suffix is very common: education, explanation, organisation."},
+
+{id:"wf_019",type:"word_form",topic:"word_building",
+question:"The article was completely [accurate] — it contained several serious factual errors.",
+answer:"inaccurate",alternates:[],
+hint:"The negative prefix for 'accurate' is 'in-': inaccurate. Note: some adjectives take 'un-', others 'in-' or 'dis-' — these must be learned individually."},
+
+{id:"wf_020",type:"word_form",topic:"word_building",
+question:"The local council has approved plans to [wide] the main road to ease congestion.",
+answer:"widen",alternates:[],
+hint:"Add '-en' to the adjective 'wide' to form the verb 'widen' (= to make wider). Other examples: lengthen, strengthen, deepen, brighten."},
+
+{id:"wf_021",type:"word_form",topic:"word_building",
+question:"The singer's [perform] at the award ceremony was absolutely breathtaking.",
+answer:"performance",alternates:[],
+hint:"The noun form of 'perform' is 'performance'. The '-ance/-ence' suffix is common: appearance, difference, importance, existence."},
+
+{id:"wf_022",type:"word_form",topic:"word_building",
+question:"His greatest [achieve] in science was the discovery of a new antibiotic compound.",
+answer:"achievement",alternates:[],
+hint:"The noun form of 'achieve' is 'achievement'. Add '-ment' to the verb (spelling change: achieve → achievement)."},
+
+{id:"wf_023",type:"word_form",topic:"word_building",
+question:"The [advertise] campaign was so successful that sales increased by forty percent.",
+answer:"advertising",alternates:["advertisement"],
+hint:"'Advertising' (the activity, uncountable) or 'advertisement' (a specific ad, countable) both work. 'Advertising campaign' is the more common fixed collocation."},
+
+{id:"wf_024",type:"word_form",topic:"word_building",
+question:"She made a very [persuade] argument and the whole committee agreed with her proposal.",
+answer:"persuasive",alternates:[],
+hint:"Add '-ive' to 'persuade' (drop the final 'e'): persuasive. Other '-ive' adjectives: creative, attractive, productive, offensive."},
+
+{id:"wf_025",type:"word_form",topic:"word_building",
+question:"The [treat] of this rare condition has improved dramatically thanks to new medication.",
+answer:"treatment",alternates:[],
+hint:"The noun form of 'treat' is 'treatment'. Add '-ment' to the verb. Other examples: punishment, entertainment, government."},
+
+// ── KEY WORD TRANSFORMATION (continued) ──────────────────────────────────────
+{id:"tr_016",type:"transform",topic:"too_enough",
+question:"She is too young to drive a car.\nKEY WORD: ENOUGH",
+prefix:"She isn't",suffix:"to drive a car.",gapAnswer:"old enough",gapAlternates:[],
+answer:"She isn't old enough to drive a car.",alternates:[],
+hint:"'Too + adjective' → 'not + opposite adjective + enough'. Too young → not old enough. The adjective flips to its opposite."},
+
+{id:"tr_017",type:"transform",topic:"collocations",
+question:"He hasn't contacted me for several weeks.\nKEY WORD: TOUCH",
+prefix:"He hasn't been in",suffix:"me for several weeks.",gapAnswer:"touch with",gapAlternates:[],
+answer:"He hasn't been in touch with me for several weeks.",alternates:[],
+hint:"'Contact someone' can be rewritten as 'be/get in touch with someone'. The fixed phrase is 'in touch with'."},
+
+{id:"tr_018",type:"transform",topic:"passive",
+question:"Someone has broken into the warehouse and stolen several computers.\nKEY WORD: BROKEN",
+prefix:"The warehouse",suffix:"and several computers have been stolen.",gapAnswer:"has been broken into",gapAlternates:[],
+answer:"The warehouse has been broken into and several computers have been stolen.",alternates:[],
+hint:"Present perfect passive: 'has/have been + past participle'. With phrasal verbs, always keep the particle: 'broken into', not just 'broken'."},
+
+{id:"tr_019",type:"transform",topic:"past_habits",
+question:"He no longer lives in the city — he moved to the countryside five years ago.\nKEY WORD: USED",
+prefix:"He",suffix:"in the city.",gapAnswer:"used to live",gapAlternates:[],
+answer:"He used to live in the city.",alternates:[],
+hint:"'Used to + infinitive' describes a past habit or state that no longer exists. It has no present tense equivalent."},
+
+{id:"tr_020",type:"transform",topic:"reported_speech",
+question:"\"You should see a doctor,\" my mother said to me.\nKEY WORD: ADVISED",
+prefix:"My mother",suffix:"a doctor.",gapAnswer:"advised me to see",gapAlternates:[],
+answer:"My mother advised me to see a doctor.",alternates:[],
+hint:"Report 'should do' using 'advise + object + to-infinitive'. Other verbs that follow this pattern: tell, warn, encourage, remind."},
+
+{id:"tr_021",type:"transform",topic:"conditionals",
+question:"Study hard or you won't pass the exam.\nKEY WORD: IF",
+prefix:"If you study hard,",suffix:"the exam.",gapAnswer:"you will pass",gapAlternates:["you'll pass"],
+answer:"If you study hard, you will pass the exam.",alternates:["You will pass the exam if you study hard.","You'll pass the exam if you study hard."],
+hint:"Type 1 conditional: 'If + present simple, will + infinitive'. The two clauses can swap positions."},
+
+{id:"tr_022",type:"transform",topic:"verb_patterns_gerund",
+question:"The teacher forced the whole class to rewrite their essays.\nKEY WORD: MADE",
+prefix:"The teacher",suffix:"rewrite their essays.",gapAnswer:"made the whole class",gapAlternates:["made the class"],
+answer:"The teacher made the whole class rewrite their essays.",alternates:["The teacher made the class rewrite their essays."],
+hint:"'Make someone do something' (causative) uses the bare infinitive after the object. Compare 'force/ask/tell someone to do' which use the to-infinitive."},
+
+{id:"tr_023",type:"transform",topic:"reported_speech",
+question:"\"Why don't we go for a walk?\" she said.\nKEY WORD: SUGGESTED",
+prefix:"She",suffix:"for a walk.",gapAnswer:"suggested going",gapAlternates:["suggested we go","suggested that we go","suggested we should go"],
+answer:"She suggested going for a walk.",alternates:["She suggested we go for a walk.","She suggested that we go for a walk."],
+hint:"Report suggestions with 'suggest + gerund' or 'suggest + that-clause'. Never 'suggest to do something'."},
+
+{id:"tr_024",type:"transform",topic:"modal_verbs",
+question:"It was a mistake not to book the tickets in advance.\nKEY WORD: SHOULD",
+prefix:"We",suffix:"the tickets in advance.",gapAnswer:"should have booked",gapAlternates:[],
+answer:"We should have booked the tickets in advance.",alternates:[],
+hint:"'Should have + past participle' expresses regret or criticism about something not done in the past."},
+
+{id:"tr_025",type:"transform",topic:"relative_clauses",
+question:"The woman lives next door. She has three young children.\nKEY WORD: WHO",
+prefix:"The woman",suffix:"has three young children.",gapAnswer:"who lives next door",gapAlternates:[],
+answer:"The woman who lives next door has three young children.",alternates:[],
+hint:"Use a defining relative clause with 'who' to combine two sentences about the same person. 'Who' replaces the repeated subject 'she'."},
+
+// ── TRUE / FALSE / NOT MENTIONED (continued) ──────────────────────────────────
+// Passage D — AI in Education
+{id:"tf_016",type:"tf",topic:"reading_comprehension",
+passage:"Artificial intelligence is rapidly changing the way students learn. Several schools in Switzerland and other European countries have begun piloting AI-powered tutoring software that adapts to each student's individual learning pace. Supporters argue that this technology can help identify gaps in knowledge far more quickly than traditional classroom methods, allowing teachers to focus on students who need extra support. However, concerns have been raised about data privacy, as these platforms collect detailed information about students' learning behaviour. Critics also warn that over-reliance on technology could reduce students' ability to think independently. The Swiss Federal Office of Education has not yet released official guidelines on AI use in classrooms.",
+question:"AI tutoring software is currently being tested in some Swiss schools.",
+answer:"True",alternates:[],
+hint:"The passage states 'Several schools in Switzerland... have begun piloting AI-powered tutoring software'."},
+
+{id:"tf_017",type:"tf",topic:"reading_comprehension",
+passage:"Artificial intelligence is rapidly changing the way students learn. Several schools in Switzerland and other European countries have begun piloting AI-powered tutoring software that adapts to each student's individual learning pace. Supporters argue that this technology can help identify gaps in knowledge far more quickly than traditional classroom methods, allowing teachers to focus on students who need extra support. However, concerns have been raised about data privacy, as these platforms collect detailed information about students' learning behaviour. Critics also warn that over-reliance on technology could reduce students' ability to think independently. The Swiss Federal Office of Education has not yet released official guidelines on AI use in classrooms.",
+question:"The AI tutoring software adjusts to the speed at which individual students learn.",
+answer:"True",alternates:[],
+hint:"The passage says it 'adapts to each student's individual learning pace'."},
+
+{id:"tf_018",type:"tf",topic:"reading_comprehension",
+passage:"Artificial intelligence is rapidly changing the way students learn. Several schools in Switzerland and other European countries have begun piloting AI-powered tutoring software that adapts to each student's individual learning pace. Supporters argue that this technology can help identify gaps in knowledge far more quickly than traditional classroom methods, allowing teachers to focus on students who need extra support. However, concerns have been raised about data privacy, as these platforms collect detailed information about students' learning behaviour. Critics also warn that over-reliance on technology could reduce students' ability to think independently. The Swiss Federal Office of Education has not yet released official guidelines on AI use in classrooms.",
+question:"The Swiss Federal Office of Education has published recommendations for using AI in schools.",
+answer:"False",alternates:[],
+hint:"The passage says the office 'has not yet released official guidelines' — so no recommendations have been published."},
+
+{id:"tf_019",type:"tf",topic:"reading_comprehension",
+passage:"Artificial intelligence is rapidly changing the way students learn. Several schools in Switzerland and other European countries have begun piloting AI-powered tutoring software that adapts to each student's individual learning pace. Supporters argue that this technology can help identify gaps in knowledge far more quickly than traditional classroom methods, allowing teachers to focus on students who need extra support. However, concerns have been raised about data privacy, as these platforms collect detailed information about students' learning behaviour. Critics also warn that over-reliance on technology could reduce students' ability to think independently. The Swiss Federal Office of Education has not yet released official guidelines on AI use in classrooms.",
+question:"Teachers in the pilot schools were interviewed about their experiences with the AI tools.",
+answer:"Not Mentioned",alternates:[],
+hint:"The passage mentions what supporters argue but says nothing about teacher interviews or surveys."},
+
+{id:"tf_020",type:"tf",topic:"reading_comprehension",
+passage:"Artificial intelligence is rapidly changing the way students learn. Several schools in Switzerland and other European countries have begun piloting AI-powered tutoring software that adapts to each student's individual learning pace. Supporters argue that this technology can help identify gaps in knowledge far more quickly than traditional classroom methods, allowing teachers to focus on students who need extra support. However, concerns have been raised about data privacy, as these platforms collect detailed information about students' learning behaviour. Critics also warn that over-reliance on technology could reduce students' ability to think independently. The Swiss Federal Office of Education has not yet released official guidelines on AI use in classrooms.",
+question:"Some experts are concerned that excessive use of AI technology could harm students' independent thinking.",
+answer:"True",alternates:[],
+hint:"Critics warn that 'over-reliance on technology could reduce students' ability to think independently'."},
+
+// ── ERROR CORRECTION (continued) ──────────────────────────────────────────────
+{id:"err_016",type:"error",topic:"verb_patterns_infinitive",
+question:"She hopes passing her driving test on the very first attempt.",
+answer:"passing",alternates:[],correction:"to pass",correctionAlternates:[],
+hint:"'Hope' is followed by a to-infinitive, not a gerund: 'she hopes to pass'. Compare verbs that take gerunds: enjoy, avoid, consider, suggest."},
+
+{id:"err_017",type:"error",topic:"collocations",
+question:"He did a lot of progress in his language classes this semester.",
+answer:"did",alternates:[],correction:"made",correctionAlternates:[],
+hint:"'Make progress' is the fixed collocation — never 'do progress'. Also: make a decision, make a mistake, make a reservation."},
+
+{id:"err_018",type:"error",topic:"prepositions_time",
+question:"We've been waiting since two hours for the results to be announced.",
+answer:"since",alternates:[],correction:"for",correctionAlternates:[],
+hint:"'For' is used with a period of time ('two hours', 'three days'). 'Since' goes with a specific point in time ('since noon', 'since 2019')."},
+
+{id:"err_019",type:"error",topic:"future_forms",
+question:"Call me when you will arrive at the station and I'll come and pick you up.",
+answer:"will arrive",alternates:["will"],correction:"arrive",correctionAlternates:[],
+hint:"After time conjunctions (when, as soon as, after, before, until), use present simple for future meaning — never 'will'."},
+
+{id:"err_020",type:"error",topic:"passive",
+question:"The new community centre has been build in less than eighteen months.",
+answer:"build",alternates:[],correction:"built",correctionAlternates:[],
+hint:"The passive requires the past participle: 'has been built'. 'Build' is the base form; 'built' is the irregular past participle."},
+
+{id:"err_021",type:"error",topic:"conditionals",
+question:"If she studied harder last year, she would have passed all her exams.",
+answer:"studied",alternates:[],correction:"had studied",correctionAlternates:[],
+hint:"Type 3 conditional (past unreal): the if-clause needs past perfect ('had studied'). Past simple gives a type 2 meaning (hypothetical present), which contradicts 'last year'."},
+
+{id:"err_022",type:"error",topic:"conjunctions",
+question:"He speaks neither French or Spanish — only German and English.",
+answer:"or",alternates:[],correction:"nor",correctionAlternates:[],
+hint:"The two-part conjunction is 'neither...nor'. 'Either...or' also belongs together. Never mix them: never 'neither...or'."},
+
+{id:"err_023",type:"error",topic:"articles",
+question:"She spent the whole summer travelling around the France and visiting museums.",
+answer:"the",alternates:[],correction:"",correctionAlternates:["-","delete","remove","omit"],
+hint:"No article is used before country names: 'travelling around France'. Exceptions include: the USA, the UK, the Netherlands."},
+
+{id:"err_024",type:"error",topic:"verb_patterns_gerund",
+question:"Do you mind to open the window? It is getting extremely hot in here.",
+answer:"to open",alternates:[],correction:"opening",correctionAlternates:[],
+hint:"'Mind' is always followed by a gerund (-ing form): 'Do you mind opening...?' Compare other gerund verbs: enjoy, avoid, consider, suggest."},
+
+{id:"err_025",type:"error",topic:"conjunctions",
+question:"The queue was such long that we decided not to wait and left immediately.",
+answer:"such",alternates:[],correction:"so",correctionAlternates:[],
+hint:"Before an adjective alone (no noun), use 'so': 'the queue was so long'. 'Such' is used before 'a/an + adjective + noun': 'such a long queue'."},
 ];
